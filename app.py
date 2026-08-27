@@ -3,7 +3,7 @@
 #  on Dermoscopic Images
 #  Developed by: Golam Muktadir Al Sabir & Jahidul Islam Jisan
 #  v5.1 — working save, auto-clear form, persistent clinician,
-#         patterned clinical background, MOBILE RESPONSIVE LAYER
+#          patterned clinical background, MOBILE RESPONSIVE LAYER
 # ============================================================
 
 import os
@@ -320,7 +320,7 @@ section[data-testid="stSidebar"] [data-testid="stAlert"] *{ color:#ffe9b8 !impor
 .stButton>button:hover, .stDownloadButton>button:hover{ filter:brightness(1.1); }
 [data-testid="stPopover"] button{ color:#fff !important; }
 
-#MainMenu, footer{ visibility:hidden; }
+#MainMenu, header, footer{ visibility:hidden !important; }
 </style>
 """, unsafe_allow_html=True)
 
